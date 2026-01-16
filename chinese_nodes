@@ -1,0 +1,11 @@
+# 文件名示例：chinese_nodes.yaml
+proxy-groups:
+  - name: 中文节点
+    type: url-test
+    url: https://www.apple.com/library/test/success.html
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 香港
+      - 🇹🇼 台湾
+      - 🇸🇬 新加坡
